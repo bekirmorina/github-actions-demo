@@ -8,7 +8,7 @@ jobs:
   label issues:
     runs-on: ubuntu-latest
     permissions:
-      issues:write
+      issues: write
     steps:
       - name: Label issues
         uses: andymckay/labeler@1.0.2
